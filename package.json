@@ -19,12 +19,15 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
+        "test": "vitest",
+        "test:run": "vitest run",
+        "test:changed": "vitest run --changed",
         "lint": "eslint . --cache --cache-location .eslintcache",
         "lint:fix": "eslint --fix . --cache --cache-location .eslintcache",
-        "clean:all": "rm -rf .next node_modules .eslintcache package-lock.json tsconfig.tsbuildinfo",
-        "clean:cache": "rm -rf .next .eslintcache tsconfig.tsbuildinfo",
+        "format": "prettier --write . --cache",
         "format:check": "prettier --check . --cache",
-        "format": "prettier --write . --cache"
+        "clean": "rimraf .next .eslintcache tsconfig.tsbuildinfo",
+        "clean:deps": "rimraf .next node_modules .eslintcache tsconfig.tsbuildinfo"
     },
     "dependencies": {
         "next": "16.3.6",
@@ -43,8 +46,10 @@
         "eslint-plugin-better-tailwindcss": "^4.7.0",
         "prettier": "^3.9.9",
         "prettier-plugin-tailwindcss": "^0.8.1",
+        "rimraf": "^6.1.3",
         "tailwindcss": "^4.3.3",
-        "typescript": "^6.0.3"
+        "typescript": "^6.0.3",
+        "vitest": "^5.0.2"
     },
     "engines": {
         "node": ">=24.x",
