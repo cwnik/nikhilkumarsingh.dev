@@ -1,0 +1,12 @@
+# Dependencies and tests coverage
+node_modules
+coverage
+
+# Package lock file
+package-lock.json
+
+# Next.js
+/.next/
+
+# Production Build
+build

@@ -1,51 +1,57 @@
 {
-  "name": "nikhilkumarsingh.dev",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Pixel-perfect portfolio website, thoughtfully crafted for developers.",
-  "homepage": "https://nikhilkumarsingh.vercel.app",
-  "license": "MIT",
-  "type": "module",
-  "author": {
-    "name": "Nikhil Kumar Singh",
-    "email": "connect.nikhilkumarsingh@gmail.com",
-    "url": "https://github.com/cwnik"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cwnik/nikhilkumarsingh.dev.git"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint . --cache --cache-location .eslintcache",
-    "lint:fix": "eslint --fix . --cache --cache-location .eslintcache",
-    "clean:all": "rm -rf .next node_modules .eslintcache package-lock.json tsconfig.tsbuildinfo",
-    "clean:cache": "rm -rf .next .eslintcache tsconfig.tsbuildinfo"
-  },
-  "dependencies": {
-    "next": "16.3.6",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  },
-  "engines": {
-    "node": ">=24.x",
-    "npm": ">=12"
-  },
-  "packageManager": "npm@12.1.0",
-  "allowScripts": {
-    "unrs-resolver@1.12.2": true
-  }
+    "name": "nikhilkumarsingh.dev",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Pixel-perfect portfolio website, thoughtfully crafted for developers.",
+    "homepage": "https://nikhilkumarsingh.vercel.app",
+    "license": "MIT",
+    "type": "module",
+    "author": {
+        "name": "Nikhil Kumar Singh",
+        "email": "connect.nikhilkumarsingh@gmail.com",
+        "url": "https://github.com/cwnik"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cwnik/nikhilkumarsingh.dev.git"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint . --cache --cache-location .eslintcache",
+        "lint:fix": "eslint --fix . --cache --cache-location .eslintcache",
+        "clean:all": "rm -rf .next node_modules .eslintcache package-lock.json tsconfig.tsbuildinfo",
+        "clean:cache": "rm -rf .next .eslintcache tsconfig.tsbuildinfo",
+        "format:check": "prettier --check . --cache",
+        "format": "prettier --write . --cache"
+    },
+    "dependencies": {
+        "next": "16.3.6",
+        "react": "19.2.8",
+        "react-dom": "19.2.8"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "babel-plugin-react-compiler": "1.0.0",
+        "eslint": "^9",
+        "eslint-config-next": "16.3.6",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-better-tailwindcss": "^4.7.0",
+        "prettier": "^3.9.9",
+        "prettier-plugin-tailwindcss": "^0.8.1",
+        "tailwindcss": "^4",
+        "typescript": "^5"
+    },
+    "engines": {
+        "node": ">=24.x",
+        "npm": ">=12"
+    },
+    "packageManager": "npm@12.1.0",
+    "allowScripts": {
+        "unrs-resolver@1.12.2": true
+    }
 }

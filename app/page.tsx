@@ -1,4 +1,3 @@
 export default function LandingPage() {
-    return <main className="grow flex flex-col"></main>;
+    return <main className="flex grow flex-col"></main>;
 }
-
