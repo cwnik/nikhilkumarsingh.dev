@@ -36,6 +36,11 @@
     --shadow-xl:
         0 4px 8px -1px color-mix(in oklab, var(--foreground) 25%, transparent),
         0 4px 6px -2px color-mix(in oklab, var(--foreground) 15%, transparent);
+
+    --inset-shadow-sm: inset 0 0 4px color-mix(in oklab, var(--background) 50%, transparent);
+    --inset-shadow-md: inset 0 0 6px color-mix(in oklab, var(--background) 50%, transparent);
+    --inset-shadow-lg: inset 0 0 6px color-mix(in oklab, var(--background) 70%, transparent);
+    --inset-shadow-xl: inset 0 0 8px color-mix(in oklab, var(--background) 50%, transparent);
 }
 
 @theme inline {
@@ -61,6 +66,7 @@
     --color-input: var(--input);
     --color-ring: var(--ring);
 
+    --radius-xs: calc(var(--radius) - 6px);
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);
@@ -70,6 +76,11 @@
     --shadow-md: var(--shadow-md);
     --shadow-lg: var(--shadow-lg);
     --shadow-xl: var(--shadow-xl);
+
+    --inset-shadow-sm: var(--inset-shadow-sm);
+    --inset-shadow-md: var(--inset-shadow-md);
+    --inset-shadow-lg: var(--inset-shadow-lg);
+    --inset-shadow-xl: var(--inset-shadow-xl);
 }
 
 @layer base {
