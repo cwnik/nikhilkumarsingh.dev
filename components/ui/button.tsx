@@ -5,7 +5,7 @@ import { Slot } from "radix-ui";
 
 const variants = cva(
     [
-        "inline-flex shrink-0 items-center justify-center rounded-sm bg-clip-padding text-sm font-medium whitespace-nowrap transition-all",
+        "inline-flex shrink-0 items-center justify-center rounded-md bg-clip-padding text-sm font-medium whitespace-nowrap transition-all",
         "focus-visible:ring-offset-background focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50",
         "[&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
     ],

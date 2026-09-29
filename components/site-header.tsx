@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NextLink from "next/link";
 
-import { GitHubInvertocat, LinkedIn, ProfilePictureSmall } from "@/assets";
+import { GitHub, LinkedIn, ProfilePictureSmall } from "@/assets";
 import { SOCIAL_LINKS } from "@/features/author/constants/social-links";
 import { SOURCE_CODE_GITHUB_REPOSITORY, SOURCE_CODE_GITHUB_REPOSITORY_URL } from "@/constants/site";
 
@@ -38,7 +38,7 @@ export function SiteHeader() {
                 />
                 <SiteHeaderCTA
                     href={SOURCE_CODE_GITHUB_REPOSITORY_URL}
-                    imgSrc={GitHubInvertocat}
+                    imgSrc={GitHub}
                     label={SOURCE_CODE_GITHUB_REPOSITORY}
                 />
             </Container>
