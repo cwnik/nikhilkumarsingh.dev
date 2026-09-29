@@ -7,7 +7,7 @@ import { AUTHOR } from "./constants/author";
 
 export function Introduction() {
     return (
-        <section>
+        <section className="border-b border-dashed">
             <Container>
                 <Small className="text-muted-foreground">{getGreeting(new Date().getHours())}</Small>
                 <Heading>I&apos;M {AUTHOR.displayName}.</Heading>

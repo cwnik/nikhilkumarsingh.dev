@@ -14,7 +14,7 @@ export const AUTHOR = {
     professionalSummary: [
         "Backend-focused developer building maintainable, reliable and scalable web applications.",
         "System design enthusiast who enjoys turning vague ideas into practical and well-structured solutions.",
-        "Design engineering explorer experimenting with different architectures and approaches to deepen technical understanding.",
+        "I am a design engineering explorer experimenting with different architectures and approaches to deepen technical understanding and skills set.",
         "Thoughtful engineer focused on writing software that is functional today and easier to evolve tomorrow."
     ]
 };

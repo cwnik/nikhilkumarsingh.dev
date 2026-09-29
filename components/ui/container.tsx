@@ -2,5 +2,11 @@ import type { ComponentProps } from "react";
 import { cn } from "cn";
 
 export function Container({ className, ...props }: ComponentProps<"div">) {
-    return <div data-slot="container" className={cn("mx-auto w-full max-w-3xl p-4", className)} {...props} />;
+    return (
+        <div
+            data-slot="container"
+            className={cn("mx-auto w-full max-w-3xl border-x border-dashed p-4", className)}
+            {...props}
+        />
+    );
 }

@@ -12,7 +12,7 @@ import { Button } from "./ui/button";
 
 export function SiteHeader() {
     return (
-        <header className="bg-background text-foreground supports-backdrop-filter:bg-background/80 sticky top-0 z-50 backdrop-blur-xs">
+        <header className="bg-background text-foreground supports-backdrop-filter:bg-background/80 sticky top-0 z-50 border-b border-dashed backdrop-blur-xs">
             <Container className="flex items-center justify-between">
                 <div className="flex grow items-center gap-2">
                     <Button asChild size="icon" className="rounded-full">
