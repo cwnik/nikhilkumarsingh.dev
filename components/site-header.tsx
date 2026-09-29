@@ -2,7 +2,7 @@ import Image from "next/image";
 import NextLink from "next/link";
 
 import { GitHubInvertocat, LinkedIn, ProfilePictureSmall } from "@/assets";
-import { SOCIAL_LINKS } from "@/constants/social-links";
+import { SOCIAL_LINKS } from "@/features/author/constants/social-links";
 import { SOURCE_CODE_GITHUB_REPOSITORY, SOURCE_CODE_GITHUB_REPOSITORY_URL } from "@/constants/site";
 
 import { Container } from "./ui/container";
