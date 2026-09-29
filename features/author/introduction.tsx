@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/container";
 import { Heading, Lead, Small } from "@/components/ui/typography";
 import { Typewriter } from "./typewriter";
 import { AUTHOR_ROLES } from "./constants/roles";
-import { getGreeting } from "./greeting";
+import { getGreeting } from "./lib/greeting";
 
 export function Introduction() {
     return (

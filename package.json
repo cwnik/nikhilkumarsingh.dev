@@ -21,7 +21,6 @@
         "start": "next start",
         "test": "vitest",
         "test:run": "vitest run",
-        "test:changed": "vitest run --changed",
         "lint": "eslint . --cache --cache-location .eslintcache",
         "lint:fix": "eslint --fix . --cache --cache-location .eslintcache",
         "format": "prettier --write . --cache",
@@ -30,8 +29,10 @@
         "clean:deps": "rimraf .next node_modules .eslintcache tsconfig.tsbuildinfo"
     },
     "dependencies": {
+        "@tabler/icons-react": "^3.48.0",
         "class-variance-authority": "^0.7.1",
         "cn": "^0.4.0",
+        "date-fns": "^4.4.0",
         "motion": "^13.4.5",
         "next": "16.3.6",
         "radix-ui": "^1.6.7",

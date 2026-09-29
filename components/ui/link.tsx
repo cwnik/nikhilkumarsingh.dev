@@ -26,7 +26,7 @@ function ExternalLink({ target, rel, className, ...props }: ComponentProps<"a">)
             target={target}
             rel={isBlankTarget ? "noopener noreferrer" : rel}
             className={cn(
-                "text-foreground hover:text-muted-foreground text-sm font-semibold underline-offset-4 transition-colors",
+                "text-foreground hover:text-muted-foreground text-sm font-medium underline-offset-4 transition-colors",
                 "focus-visible:underline focus-visible:outline-none",
                 className
             )}
