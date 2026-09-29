@@ -3,12 +3,12 @@ import Link from "next/link";
 
 import { cn } from "cn";
 
-import { GitHubInvertocat, ProfilePictureSmall } from "@/assets";
+import { GitHubInvertocat, LinkedIn, ProfilePictureSmall } from "@/assets";
 import { SOCIAL_LINKS } from "@/constants/social-links";
 import { SOURCE_CODE_GITHUB_REPOSITORY, SOURCE_CODE_GITHUB_REPOSITORY_URL } from "@/constants/site";
 
 import { Container } from "./ui/container";
-import { Button } from "./ui/button";
+import { SiteHeaderCTA } from "./site-header-cta";
 
 export function SiteHeader() {
     return (
@@ -40,21 +40,19 @@ export function SiteHeader() {
                             "focus-visible:underline focus-visible:outline-none"
                         )}
                     >
-                        @{SOCIAL_LINKS.gitHub.handle}
+                        {SOCIAL_LINKS.gitHub.handle}
                     </a>
                 </div>
-                <Button asChild variant="ghost" size="icon" className="rounded-full">
-                    <a href={SOURCE_CODE_GITHUB_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">
-                        <Image
-                            src={GitHubInvertocat}
-                            alt="Repository"
-                            width={32}
-                            height={32}
-                            className="size-4 object-contain"
-                        />
-                        <span className="sr-only">{SOURCE_CODE_GITHUB_REPOSITORY}</span>
-                    </a>
-                </Button>
+                <SiteHeaderCTA
+                    href={SOCIAL_LINKS.linkedIn.url}
+                    imgSrc={LinkedIn}
+                    label={SOCIAL_LINKS.linkedIn.handle}
+                />
+                <SiteHeaderCTA
+                    href={SOURCE_CODE_GITHUB_REPOSITORY_URL}
+                    imgSrc={GitHubInvertocat}
+                    label={SOURCE_CODE_GITHUB_REPOSITORY}
+                />
             </Container>
         </header>
     );
