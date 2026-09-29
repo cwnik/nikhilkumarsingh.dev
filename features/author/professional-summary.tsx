@@ -12,7 +12,7 @@ export function ProfessionalSummary() {
             <Container>
                 <ul className="ms-4 list-disc space-y-2">
                     {AUTHOR.professionalSummary.map((item, index) => (
-                        <li key={index} className="text-sm text-pretty">
+                        <li key={index} className="text-sm/relaxed text-pretty">
                             {item}
                         </li>
                     ))}

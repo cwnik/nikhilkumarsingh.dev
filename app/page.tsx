@@ -1,3 +1,4 @@
+import { Eduction } from "@/features/author/education";
 import { Introduction } from "@/features/author/introduction";
 import { AuthorOverview } from "@/features/author/overview";
 import { ProfessionalSummary } from "@/features/author/professional-summary";
@@ -8,6 +9,7 @@ export default function LandingPage() {
             <Introduction />
             <AuthorOverview />
             <ProfessionalSummary />
+            <Eduction />
         </main>
     );
 }
