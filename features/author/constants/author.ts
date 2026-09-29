@@ -10,5 +10,11 @@ export const AUTHOR = {
     countryCode: "+91",
     phoneNumber: "9358155796",
     currentDesignation: "Full Stack MERN Developer",
-    currentCompany: "Infonic Solutions"
+    currentCompany: "Infonic Solutions",
+    professionalSummary: [
+        "Backend-focused developer building maintainable, reliable and scalable web applications.",
+        "System design enthusiast who enjoys turning vague ideas into practical and well-structured solutions.",
+        "Design engineering explorer experimenting with different architectures and approaches to deepen technical understanding.",
+        "Thoughtful engineer focused on writing software that is functional today and easier to evolve tomorrow."
+    ]
 };

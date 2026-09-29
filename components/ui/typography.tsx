@@ -11,6 +11,16 @@ function Heading({ className, ...props }: ComponentProps<"h1">) {
     );
 }
 
+function Title({ className, ...props }: ComponentProps<"h2">) {
+    return (
+        <h2
+            data-slot="heading"
+            className={cn("scroll-m-20 text-lg/tight font-semibold tracking-tight", className)}
+            {...props}
+        />
+    );
+}
+
 function Lead({ className, ...props }: ComponentProps<"p">) {
     return <p data-slot="lead" className={cn("text-muted-foreground text-base/relaxed", className)} {...props} />;
 }
@@ -23,4 +33,4 @@ function Small({ className, ...props }: ComponentProps<"small">) {
     return <small data-slot="small" className={cn("text-xs/snug font-medium", className)} {...props} />;
 }
 
-export { Heading, Paragraph, Lead, Small };
+export { Heading, Title, Paragraph, Lead, Small };
