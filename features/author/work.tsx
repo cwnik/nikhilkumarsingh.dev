@@ -25,7 +25,7 @@ export function Work() {
                             />
                             <div className="flex max-sm:flex-col sm:grow sm:items-center">
                                 <SubTitle>{item.company.name}</SubTitle>
-                                <Small className="text-muted-foreground shrink-0 sm:ms-auto">
+                                <Small className="text-muted-foreground shrink-0 sm:ms-auto sm:pe-2">
                                     {item.company.location} ({item.company.type})
                                 </Small>
                             </div>
