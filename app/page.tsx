@@ -3,6 +3,7 @@ import { Introduction } from "@/features/author/introduction";
 import { AuthorOverview } from "@/features/author/overview";
 import { ProfessionalSummary } from "@/features/author/professional-summary";
 import { Skills } from "@/features/author/skills";
+import { Work } from "@/features/author/work";
 
 export default function LandingPage() {
     return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
             <AuthorOverview />
             <Skills />
             <ProfessionalSummary />
+            <Work />
             <Eduction />
         </main>
     );

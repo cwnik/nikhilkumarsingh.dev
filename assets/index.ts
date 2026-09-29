@@ -28,6 +28,7 @@ import TypeScript from "./typescript.webp";
 import Vercel from "./vercel.webp";
 import VSCode from "./vs-code.webp";
 import Zustand from "./zustand.webp";
+import InfonicSolutions from "./infonic-solutions.webp";
 
 export {
     ProfilePicture,
@@ -59,5 +60,6 @@ export {
     TypeScript,
     Vercel,
     VSCode,
-    Zustand
+    Zustand,
+    InfonicSolutions
 };

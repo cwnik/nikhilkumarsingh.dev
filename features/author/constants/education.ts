@@ -11,13 +11,7 @@ export const EDUCATION = [
             "Built foundational knowledge of financial concepts and business practices.",
             "Gained insight into organizational decision-making and management."
         ],
-        badges: [
-            "Business",
-            "Analytical Thinking",
-            "Accounting & Finance",
-            "Organizational Operations",
-            "Decision Making"
-        ]
+        badges: ["Business", "Analytical Thinking", "Accounting & Finance", "Decision Making"]
     }
 ] as const;
 
