@@ -3,6 +3,7 @@ export const AUTHOR = {
     firstName: "Nikhil Kumar",
     lastName: "Singh",
     displayName: "Nikhil Kumar Singh",
+    gender: "Male",
     bio: "Continuously experimenting with system design and design engineering to deepen my technical skills.",
     roles: ["JavaScript/TypeScript", "UI/UX Designer", "React/Next.js Developer", "Full Stack MERN Developer"],
     emailAddress: "connect.nikhilkumarsingh@gmail.com",
